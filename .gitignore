@@ -1,0 +1,28 @@
+# Secrets & Environnement (INTERDIT SUR GIT)
+.env
+.env.local
+*.pem
+*.key
+
+# Données massives & Modèles locaux
+data/raw/*.pdf
+data/raw/*.csv
+data/processed/
+qdrant_storage/
+hive-warehouse/
+*.parquet
+
+# Python & Spark
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Node / Frontend
+node_modules/
+.next/
+dist/
